@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Braids All Day</title>
+<meta charset="utf-8">
+<meta name="viewport"
+ content="width=device-width, initial-scale=1.0">
+<link href="project.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src= "http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>Braids All Day</h1>
+</header>
+<nav>
+  <ul>	   <li><a href="index.html">Home</a></li>
+	   <li><a href="about.html">About Us</a></li> 
+	   <li><a href="style.html">Style Options</a></li> 
+	   <li><a href="testimonials.html">Client Testimonials</a></li>
+           <li><a href="bookappt.html">Book Appointment</a></li>
+  </ul>	
+</nav>
+<main>
+<h2> Book Your Appointment Today</h2> 
+<form name="appt" method="post" action="http://webdevbasics.net/scripts/demo.php">
+<label for="myName">*Name:</label>
+<input type="text" name="myName" id="myName" required="required">
+<label for="myEmail">*Email:</label>
+<input type="email" name="myEmail" id="myEmail" required="required"> 
+<label for="myDate">*Choose Date:</label>
+<input type="date" name="myDate" id="myDate" required="required">
+<label for="myTime">*Time:</label>
+<input type="text" name="myTime" id="myTime" required="required">
+<label for="myComment">Comment:</label>
+<textarea name="comment" rows="2" cols="20" id="myComment"></textarea>
+<input type="submit" value="Book Now" id="mySubmit"> 
+</form>
+</main>
+<footer>
+Copyright &copy; Braids All Day <br>
+<a href=mailto:Braids@allday.com>Braids@allday.com</a>
+</footer>
+</div>
+</body>

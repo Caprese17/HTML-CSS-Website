@@ -1,0 +1,100 @@
+body { background-color: #42AFC2; 
+       color: #221811;
+       font-family: Bradley Hand, cursive; }
+       
+header { background-color: #117182;
+	 height:150px;
+         background-image: url(logo2.png);
+         background-position: left;
+         background-repeat: no-repeat; }
+
+h1 { padding:45px 220px;
+     font-size:3em;
+     color:#FAF7F2;
+     text-shadow: 2px 2px 5px black; } 
+ 
+h2 {
+     font-size:2em;
+     color: #42AFC2;
+     text-shadow: 2px 2px 5px black; } 
+         
+nav { text-align:center; 
+      font-weight:bold;
+      font-size: 1.3em;
+      padding-top: 10px; 
+      float: left;
+      width: 200px;
+      background-color: #117182;}
+
+nav a:link {color: #42AFC2 }
+nav a:visited {color: #D2B48C }
+nav a:hover {color: #FAF7F2 }
+
+nav > nav ul { list-style-type: none; padding-left: 0; }
+
+nav a { text-decoration: none; }
+
+#wrapper { width: 80%;
+	   margin-left: auto;
+	   margin-right: auto;
+           background-color: #FAF7F2;
+           min-width: 900px;
+           max-width: 1280px;
+           box-shadow: 5px 5px 5px; }
+
+#salon { background-image: url(salon.jpg); 
+            background-size: 100%;
+            height: 250px;
+            background-repeat: no-repeat; }
+
+main { padding: 0 0 2em 2em;
+       margin-left:200px;
+       background-color: #FAF7F2;
+       display: block;
+       overflow:auto; }
+
+footer { background-color: #117182; 
+	 font-size: .60em;
+	 font-style: italic;
+	 text-align: center;
+         padding-bottom: 10px;
+         border-top: 2px solid #221811; }
+
+* { box-sizing: border-box; }
+
+#person { background-image: url(person.jpg); 
+            background-size: 100%;
+            height: 250px;
+            background-repeat: no-repeat; }
+
+.padding { padding-left: 20%;
+           padding-right: 20%;
+           overflow: auto; }
+
+.floatleft { float: left;
+             padding-right: 2em;
+             padding-bottom: 2em; }
+
+.floatright { float: right;
+             padding-right: 2em;
+             padding-bottom: 2em; }
+
+.quotes { padding-left: 20%;
+           padding-right: 20%;
+           padding-bottom: 2em;           
+           overflow: auto;
+           font-family: Brush Script MT, Brush Script Std, cursive;
+           font-size: 1.5em; }
+form { padding: 2em }
+
+label { float: left;
+        display: block; 
+	text-align: right;
+	width: 8em;
+        padding-right: 1em; }
+
+input, textarea { display: block;
+		  margin-bottom:1em; }
+
+#mySubmit { margin-left: 9.5em }
+
